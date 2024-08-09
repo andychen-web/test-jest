@@ -2,7 +2,6 @@ import React from "react";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import { object, string, number, date } from "yup";
-// import { Button, TextField } from "@mui/material";
 const FormYup = () => {
   let userSchema = object({
     name: string().required(),
